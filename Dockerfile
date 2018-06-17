@@ -1,4 +1,6 @@
 from postgres:alpine
+MAINTAINER Anton Goroshkin <neobht@sibsau.ru>
+
 ENV LANG ru_RU.utf8
 RUN set -ex \
     \
