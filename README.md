@@ -1,3 +1,3 @@
 # docker-postgres
 
-  docker build ./ -t sibsau/postgres:alpine
+    docker build ./ -t sibsau/postgres:alpine
