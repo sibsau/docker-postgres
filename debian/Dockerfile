@@ -8,6 +8,7 @@ RUN set -eux; \
     apt-get install -y --no-install-recommends \
         python-pip \
         python-psutil \
+        python-setuptools \
         python-psycopg2; \
     pip install pg_activity; \
     rm -rf /var/lib/apt/lists/*
