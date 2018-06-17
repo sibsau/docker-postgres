@@ -5,7 +5,11 @@ ENV LANG ru_RU.utf8
 
 RUN set -eux; \
     apt-get update; \
-    apt-get install -y --no-install-recommends pgactivity; \
+    apt-get install -y --no-install-recommends \
+        python-pip \
+        python-psutil \
+        python-psycopg2; \
+    pip install pg_activity; \
     rm -rf /var/lib/apt/lists/*
 
 
